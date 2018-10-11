@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<header>
+    <h1 id="title">Survey Form</h1>
+</header>
+
+<body>
+
+    <div class="outer">
+
+        <p id="description">What are your favorite things about Warcraft ?</p>
+
+        <form id="survey-form">
+            <div class="labels">
+                <label for="name" id="name-label">Name:</label>
+                <input type="text" id="name" class="input-space" placeholder="enter your name">
+            </div>
+            <div class="labels">
+                <label for="email" id="email-label">Email:</label>
+                <input type="email" id="email" class="input-space" placeholder="enter your email">
+            </div>
+            <div class="labels">
+                <label for="number" id="number-label">Age:</label>
+                <input type="number" id="number" class="input-space" min="12" max="100" placeholder="age">
+
+            </div>
+
+            <div class="tab">
+                <label for="char">Which is your favorite character?</label>
+                <select id="dropdown" name="wut" class="dropdown">
+
+                    <option disabled value>Select an option</option>
+
+                    <option value="Arthas">Arthas</option>
+                    <option value="Illidan">Illidan</option>
+                    <option value="Anduin">Anduin</option>
+                    <option value="Varian">Varian</option>
+                    <option value="Kael'Thas">Kael'Thas</option>
+                    <option value="Jaina">Jaina</option>
+                    <option value="Malfurion">Malfurion</option>
+
+                </select>
+
+            </div>
+
+            <div class="radiotab">
+                <label>Which faction do you like better?</label>
+                <label for="Alliance">
+                    <input type="radio" name="faction"> Alliance
+                    <img class="images" src="https://d1u5p3l4wpay3k.cloudfront.net/wowpedia/thumb/a/ae/Movie_Alliance_Emblem.jpg/260px-Movie_Alliance_Emblem.jpg?version=1895ff7d3f93a7f2fb9c65b79fc72d57"
+                        alt="Alliance">
+                </label>
+                <label for="Horde">
+                    <input type="radio" name="faction"> Horde
+                    <img class="images" src="https://res.cloudinary.com/teepublic/image/private/s--GdTQh4ii--/t_Preview/b_rgb:6e2229,c_limit,f_jpg,h_630,q_90,w_630/v1465412031/production/designs/537082_1.jpg"
+                        alt="Horde">
+
+                </label>
+
+
+
+            </div>
+
+
+            <div class="checkrow">
+                <label>What are your favorite things to do in WoW?</label>
+
+                <label for="pvp"><input id="pvp" type="checkbox" class="checkboxes" value="1" name="favor">PvP</label>
+                <label for="pvp"><input id="raids" type="checkbox" class="checkboxes" value="2" name="favor">Raids</label>
+                <label for="pvp"><input id="farm" type="checkbox" class="checkboxes" value="3" name="favor">Farm Gold</label>
+                <label for="pvp"><input id="achievments" type="checkbox" class="checkboxes" value="4" name="favor">Achievments</label>
+
+            </div>
+
+            <div class="comments">
+                <label for="likes">Any additional stuff you like about the Warcraft universe?</label>
+                <textarea name="comment" class="commenttab" placeholder="Enter your additional likes here..."></textarea>
+
+
+            </div>
+
+
+            <button id="submit" class="submit" type="submit">Submit</button>
+
+        </form>
+
+
+
+
+
+
+
+ </div>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,151 @@
+body {
+    background: url("https://wallpaper.wiki/wp-content/uploads/2017/05/Pictures-Download-World-Of-Warcraft-Backgrounds.jpg");
+    background-size:cover;
+    text-align: center  ;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#title {
+    display:inline-block;
+    font-size: 50px;
+    padding: 30px;
+    background-color: bisque;
+}
+
+.outer{
+    background-color:wheat;
+    margin: 0 auto;
+    border-radius: 4px;
+    width: 75%;
+    max-width: 900px;
+    padding: 10px;
+    padding-top: 20px;
+  
+}
+
+#description {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.input-space {
+    height: 18px;
+    width: 250px;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid #c0c0c0;
+    border-radius: 2px;
+
+    
+
+}
+.submit {
+  margin-top: 10px;
+}
+
+.labels {
+    display: inline-block;
+     text-align: right;
+    width: 60%;
+  padding: 5px;
+  vertical-align: top;
+  margin-top: 10px;
+}
+
+.commenttab {
+  display: inline-block;
+   text-align: left;
+  width: 50%;
+  height: 100px;
+  margin-top: 20px;
+
+
+}
+
+.comments {
+  margin-top: 80px;
+}
+
+.checkboxes {
+  display: inline-block;
+   text-align: left;
+}
+
+.dropdown {
+height: 30px;
+width: 120px;
+margin-top: 25px;
+
+
+}
+
+.images {
+  width: 50px;
+}
+
+.checkrow{
+  margin-top: 40px;
+}
+
+.radiotab{
+
+  margin-top: 40px;
+  margin-right: 10px;
+}
+
+.tab {
+  text-align: left;
+  margin-left: 120px;
+}
+@media screen and (max-width: 833px) {
+    .input-space {
+      width: 80%;
+    }
+   
+  }
+  
+  @media screen and (max-width: 520px) {
+    .input-space {
+      width: 80%;
+      text-align: left;
+    }
+
+    .labels{
+      text-align: left;
+    }
+
+    .radiotab{
+      width: 75%
+    }
+
+    .tab{
+      
+      width: 1%;
+      text-align: left;
+    }
+
+    .dropdown{
+      width: 100px;
+      float: left;
+      text-align: left;
+      margin-bottom: 20px;
+    }
+
+    
+    .checkboxes {
+      width: 10%;
+     
+
+      
+    }
+    
+
+  
+
+   
+
+   
+  }
+
+
+
